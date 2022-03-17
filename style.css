@@ -79,12 +79,12 @@ button, .cta {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 300px 0;
+    padding: 24px 200px 0;
 }
 
 .hero-message {
     display: flex;
-    padding: 100px 300px;
+    padding: 100px 200px;
     justify-content: center;
 }
 
