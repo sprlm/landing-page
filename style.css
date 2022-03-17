@@ -41,11 +41,11 @@ button, .cta {
     background-color: #E5E7EB;
 }
 
-.logo, .hero-main-text {
+.logo, .hero-main-text, .cta-header {
     color: #F9FAF8;
 }
 
-.hero-secondary-text, a, button {
+.hero-secondary-text, a, button, .cta-content {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -54,7 +54,7 @@ button, .cta {
     color: #1F2937;
 }
 
-.logo {
+.logo, .cta-header {
     font-size: 24px;
     font-weight: 700;
 }
@@ -137,4 +137,17 @@ button, .cta {
 
 .quote {
     padding: 100px 300px;
+}
+
+.cta {
+    display: flex;
+    margin: 100px 200px;
+    padding: 50px 80px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-button {
+    border: 3px solid #E5E7EB;
 }
