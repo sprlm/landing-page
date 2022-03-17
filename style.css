@@ -76,6 +76,12 @@ button, .cta {
     font-style: italic;
 }
 
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -127,4 +133,8 @@ button, .cta {
 
 .info-section-text {
     font-size: 18px;
+}
+
+.quote {
+    padding: 100px 300px;
 }
